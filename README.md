@@ -1,6 +1,6 @@
 # Maquette-To-Html
 
-# I receive a pdf and my teacher ask me to make a maquette using "Figma", after that he ask me to make a  responsive website using pure css
+I receive a pdf and my teacher ask me to make a maquette using "Figma", after that he ask me to make a  responsive website using pure css
 
 # Given PDF
 
