@@ -17,5 +17,5 @@ https://maquette-to-html-css-skills.netlify.app
 # What i praticed:
 - I learned how to use Figma (make frame, and group...).
 - I trained my CSS skill (flexbox, justify-content, flex-direction...).
-- I really that pleasure doing it.
+- I really have pleasure doing it.
 
