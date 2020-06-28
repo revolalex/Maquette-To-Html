@@ -1,0 +1,332 @@
+* {
+  margin: 0em;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  padding: 0em;
+}
+/* -------------------------------------------------
+Navbar ---------------------------------------------
+----------------------------------------------------
+*/
+#navbar {
+  background-color: rgba(0, 0, 0, 0.2);
+  /* display: flex;
+    align-items: center;
+    justify-content: flex-start; */
+  text-align: center;
+  display: flex;
+}
+
+#solarSystem {
+  width: 64px;
+  height: 64px;
+
+  padding-left: 10px;
+  padding-top: 10px;
+  display: block;
+  text-align: left;
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu a {
+  color: white;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  text-decoration: none;
+  display: inline-block;
+}
+
+@media screen and (max-width: 900px) {
+  #menu a {
+    color: white;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-decoration: none;
+    display: inline-block;
+  }
+}
+
+/* ----------------------------------------------------------------------------------------
+Section 1----------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+*/
+#main {
+  background: url(img/nightSkyResize.jpg);
+  width: 100%;
+  height: auto;
+}
+
+#title {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 7vh;
+  font-weight: bolder;
+  text-align: center;
+  color: #3167b0;
+  padding-top: 10vh;
+}
+
+#welcome p {
+  margin-top: 10vh;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3vh;
+  text-align: center;
+  color: #3167b0;
+}
+
+/* -------------------------------------------------
+Button ----------------------------------------------
+----------------------------------------------------
+*/
+#divButton {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20vh;
+  justify-content: center;
+}
+
+#yesButton {
+  background-color: green;
+  color: white;
+  min-width: 120px;
+  border: none;
+  border-radius: 20px;
+  min-height: 30px;
+  margin-right: 5vh;
+  margin-left: 5vh;
+  font-size: 20px;
+}
+
+#noButton {
+  background-color: red;
+  color: white;
+  min-width: 120px;
+  border: none;
+  border-radius: 20px;
+  min-height: 30px;
+  margin-right: 5vh;
+  margin-left: 5vh;
+  font-size: 20px;
+}
+
+#arrow {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5vh;
+}
+
+/* --------------------------------------------------------------------------------------
+Section 2--------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+*/
+/* -------------------------------------------------
+Genius ----------------------------------------------
+----------------------------------------------------
+*/
+#geniusTitle {
+  margin-top: 5vh;
+  font-size: 5.7vh;
+  color: #3167b0;
+  margin-bottom: 15vh;
+  margin-right: 5vh;
+  margin-left: 5vh;
+  text-align: center;
+}
+
+#genius {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: rgb(5, 4, 20);
+}
+
+#geniusCard {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: rgb(5, 4, 20);
+}
+
+#einstein img,
+#newton img,
+#hawking img {
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  object-fit: cover;
+  right: 30%;
+  top: -20%;
+}
+
+#newton h4,
+#hawking h4,
+#einstein h4 {
+  margin-top: 8vh;
+  margin-bottom: 5vh;
+}
+
+#newton,
+#hawking,
+#einstein {
+  background-color: #3167b0;
+  width: 270px;
+  height: 270px;
+  text-align: center;
+  margin: 25px auto;
+  transition: all 0.5s;
+  border-radius: 20px;
+  margin-bottom: 15vh;
+  position: relative;
+}
+
+/* --------------------------------------------------------------------------------------
+Section 3--------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+/* -------------------------------------------------
+Planete ----------------------------------------------
+----------------------------------------------------
+*/
+/*Container*/
+#planete {
+  background-color: #1d2733;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: auto;
+}
+
+#saturne,
+#terre,
+#soleil {
+  background-color: #2b62aa;
+  text-align: center;
+  width: 55%;
+  height: 15vh;
+  display: flex;
+}
+
+/* Terre */
+#terre {
+  align-self: flex-end;
+  border-radius: 65px 0px 0px 65px;
+  align-items: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+#saturne {
+  margin-top: 10vh;
+}
+#soleil {
+  margin-bottom: 10vh;
+}
+
+/*Saturne Soleil*/
+#saturne,
+#soleil {
+  border-radius: 0px 65px 65px 0px;
+  align-items: center;
+}
+
+/* img */
+#saturne img,
+#soleil img {
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+#terre img {
+  order: 1;
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+/* p */
+#saturne p,
+#soleil p {
+  margin-left: 10vh;
+}
+#terre p {
+  order: 2;
+  margin-right: 10vh;
+}
+
+/* media */
+@media screen and (max-width: 900px) {
+  #saturne,
+  #terre,
+  #soleil {
+    background-color: #2b62aa;
+
+    text-align: center;
+    width: 85%;
+    height: 20%;
+  }
+  #saturne p,
+  #soleil p {
+    margin-left: 1vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+  #terre p {
+    margin-right: 1vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+}
+
+/* --------------------------------------------------------------------------------------
+Footer--------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+*/
+#footer {
+  background-color: black;
+  min-height: 30vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#footerTitle {
+  text-align: center;
+  font-size: 2.5vh;
+}
+
+#line {
+  text-align: center;
+  width: 25%;
+  height: 0px;
+  border: 1px solid #ffffff;
+  margin-top: 1vh;
+  margin-bottom: 15vh;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#line2 {
+  width: 90%;
+  height: 0px;
+  border: 1px solid #ffffff;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#footerLink {
+  margin-top: 3vh;
+  display: flex;
+  justify-content: space-around;
+}
