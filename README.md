@@ -1,6 +1,6 @@
 # Maquette-To-Html
 
-I receive a pdf and my teacher ask me to make a maquette using "Figma", after that he ask me to make a  responsive website using pure css
+My teacher give me a pdf and ask me to make a maquette using "Figma", after that he ask me to make a responsive website using pure css.
 
 # Given PDF
 
@@ -14,4 +14,8 @@ I receive a pdf and my teacher ask me to make a maquette using "Figma", after th
 
 https://maquette-to-html-css-skills.netlify.app
 
+# What i praticed:
+- I learned how to use Figma (make frame, and group...).
+- I trained my CSS skill (flexbox, justify-content, flex-direction...).
+- I really that pleasure doing it.
 
