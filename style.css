@@ -155,6 +155,7 @@ Genius ----------------------------------------------
   object-fit: cover;
   right: 30%;
   top: -20%;
+  border-radius: 20px;
 }
 
 #newton h4,
