@@ -5,7 +5,7 @@
 
 ## Table of contents
 * [General info](#general-info)
-* [Given pdf](#Given pdf)
+* [Given pdf](#given pdf)
 * [Maquette (Figma)](#Maquette)
 * [Website](#Website)
 * [What i praticed, learn:](#What i praticed, learn)
