@@ -8,7 +8,6 @@
 * [PDF](#PDF)
 * [Maquette (Figma)](#Maquette)
 * [Website](#Website)
-* [What i praticed, learn:](#What i praticed, learn)
 * [Technologies](#Technologies)
 * [Status](#Status)
 * [Contact](#Contact)
@@ -29,13 +28,6 @@ My teacher give me a pdf and ask me to make a maquette using "Figma", then he as
 link: https://maquette-to-html-css-skills.netlify.app
 
 
-## What i praticed, learn:
-
-- I learned how to use Figma (make frame, and group...).
-- I trained my CSS skill (flexbox, justify-content, flex-direction...).
-- I really have pleasure doing it.
-
-
 ## Technologies:
 * HTML
 * CSS
@@ -44,6 +36,12 @@ link: https://maquette-to-html-css-skills.netlify.app
  
 ## Status:
 Project is:  _finished_
+
+## What i praticed, learn:
+
+- I learned how to use Figma (make frame, and group...).
+- I trained my CSS skill (flexbox, justify-content, flex-direction...).
+- I really have pleasure doing it.
 
 
 ## Contact:
