@@ -5,7 +5,7 @@
 
 ## Table of contents
 * [General info](#general-info)
-* [Given pdf](#given pdf)
+* [PDF](#PDF)
 * [Maquette (Figma)](#Maquette)
 * [Website](#Website)
 * [What i praticed, learn:](#What i praticed, learn)
@@ -17,7 +17,7 @@
 My teacher give me a pdf and ask me to make a maquette using "Figma", then he ask me to make a responsive website using pure css.
 
 
-## Given PDF:
+## PDF:
 <img width="446" alt="maquette" src="https://user-images.githubusercontent.com/56839789/85950669-6fae9c00-b95e-11ea-95ee-63c6809a45be.jpg">
 
 
