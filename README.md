@@ -1,3 +1,7 @@
+![](https://img.shields.io/badge/made%20with-figma-orange?logo=figma).
+![](https://img.shields.io/badge/made%20with-html-blue?logo=html5).
+![](https://img.shields.io/badge/made%20with-css-yellow?logo=css3).
+
 <img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Frevolalex%2FVue.js-Maquette-To-Html" alt="Hits">.
 
 # Project: Learn to maquette and improve css skill
