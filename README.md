@@ -1,3 +1,4 @@
+<img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Frevolalex%2FVue.js-Maquette-To-Html" alt="Hits">.
 
 # Project: Learn to maquette and improve css skill
 > i was inpose to use figma to for maquetting
